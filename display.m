@@ -3,7 +3,7 @@ display('WORK IN PROGRESS PLEASE WAIT .............');
   load('older.mat','older');
   load('path.mat','path');
   k=1;
-           for i= 1:size(adult,1)
+           for i= 1:size(adult,1)                    //list by folder
            subplot(4,9,k);
            im1 = strcat(path,adult(i))
            im1 = cell2mat(im1);
